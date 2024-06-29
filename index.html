@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button><img src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="search"></button>
+    </div>
+    <div class="error">
+      <h1>Invalid Input</h1>
+    </div>
+    <div class="weather">
+      <img src="https://w7.pngwing.com/pngs/244/421/png-transparent-weather-clouds-fog-foggy-weather-color-icon.png" class="weatherIcon">
+      <h1 class="temp">20°C</h1>
+      <h2 class="city">Kolkata</h2>
+      <div class="details">
+        <div class="col">
+          <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png">
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="https://static.vecteezy.com/system/resources/previews/022/782/484/original/wind-clouds-icon-weather-forecast-pictogram-wind-icon-wind-blowing-windy-weather-air-icons-doodle-wind-winds-and-clouds-weather-symbol-wind-speed-icon-free-vector.jpg">
+          <div>
+            <p class="wind">15 km/h</p>
+            <p>Wind Speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
